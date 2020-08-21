@@ -3,7 +3,8 @@ html {
 	/* colors */
 	--proposales-dark: #1A202C;
 	--proposales-primary: #1A56DB;
-	--proposales-medium: #D2D6DC;
+	--proposales-medium: #6b7280;
+	--proposales-bg: #E4E9EC;
 	/* sizes */
 	--proposales-col-size: 1200px;
 }
@@ -11,9 +12,10 @@ html {
 body {
 	margin: 0;
 	color: var(--proposales-dark);
-	font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-family: 'Poppins', -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	font-size: 14px;
-	line-height: 1.5;
+	font-weight: 600;
+	line-height: 1.4;
 }
 
 @media (min-width: 400px) {
